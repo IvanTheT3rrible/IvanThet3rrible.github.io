@@ -1,0 +1,59 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: beige;
+}
+.cars1
+{
+    background-color: orange;
+    padding: 45px;
+    height: 420px;
+    border-radius: 15px 0px 0px 15px;
+    width: 280px;
+
+}
+.cars1 img, .cars2 img, .cars3 img
+{
+    margin-bottom: 25px;
+}
+.cars1 h1, .cars2 h1, .cars3 h1
+{
+    margin-bottom: 20px;
+}
+.cars1 p, .cars2 p, .cars3 p
+{
+    margin-bottom: 80px;
+}
+.cars2
+{
+    background-color: cyan;
+    padding: 45px 45px 0px 45px;
+    height: 420px;
+    max-height: 450px;
+    width: 280px;
+}
+.cars3
+{
+    background-color: darkcyan;
+    padding: 45px;
+    height: 420px;
+    max-height: 450px;
+    width: 280px;
+}
+button
+{
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 30px;
+    padding: 10px 20px 10px 20px;
+}
